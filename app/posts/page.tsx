@@ -36,11 +36,11 @@ export default function Posts() {
       {allPosts.map((post) => (
         <article key={post._id}>
           <Link className="prose dark:prose-invert" href={post.slug}>
-            <h2>{post.title}</h2>
+            <h3>{post.title}</h3>
           </Link>
-          {post.description && (
-            <p className="prose dark:prose-invert pt-2">{post.description}</p>
-          )}
+          {/* {post.description && (
+            <p className="prose dark:prose-invert py-1">{post.description}</p>
+          )} */}
           <p className="prose dark:prose-invert">{formatDate(post.date)}</p>
         </article>
       ))}

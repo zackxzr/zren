@@ -17,10 +17,7 @@ export default function Projects() {
             alt="pocusneo"
           />
           <CardBody className="overflow-visible py-2">
-            <h1 className="text-lg">
-              CDSS Hemodynamics -
-              <span className="text-violet-400"> Flutter</span>
-            </h1>
+            <h1 className="text-lg">CDSS Hemodynamics</h1>
             <p className="text-sm">
               A clinical decision support system mobile app aimed to guide
               neonatologists during hemodynamic assessment of newborns.
@@ -38,7 +35,7 @@ export default function Projects() {
             alt="veritech"
           />
           <CardBody className="overflow-visible py-2">
-            <h1 className="text-lg">Veritech - Python (NLP), Azure, React</h1>
+            <h1 className="text-lg">Veritech</h1>
             <p className="text-sm">
               A web based news aggregator that returns and classifies news
               articles by political stance based on a search query.
@@ -56,9 +53,7 @@ export default function Projects() {
             alt="graphtai"
           />
           <CardBody className="overflow-visible py-2">
-            <h1 className="text-lg">
-              Grapht.ai - GCP, node.js, MongoDB, React
-            </h1>
+            <h1 className="text-lg">Grapht.ai</h1>
             <p className="text-sm">
               Dermatology diagnosis, referral, and eduation platform utilizing
               computer vision to make dematology care accessible to a greater
@@ -77,9 +72,7 @@ export default function Projects() {
             alt="nearbuy"
           />
           <CardBody className="overflow-visible py-2">
-            <h1 className="text-lg">
-              NearBuy - React Native, MongoDB, JavaScript
-            </h1>
+            <h1 className="text-lg">NearBuy</h1>
             <p className="text-sm">
               A mobile app designed to reduce the monopoly of third-party food
               delivery apps for local restaruants and instead support local
@@ -98,7 +91,7 @@ export default function Projects() {
             alt="filtering"
           />
           <CardBody className="overflow-visible py-2">
-            <h1 className="text-lg">Image Filtering - C</h1>
+            <h1 className="text-lg">Image Filtering</h1>
             <p className="text-sm">
               Image processing program which applies a filter to a .ppm image
               using a convolution kernel
@@ -116,9 +109,7 @@ export default function Projects() {
             alt="safewayz"
           />
           <CardBody className="overflow-visible py-2">
-            <h1 className="text-lg">
-              SafeWayz - Java, Android Studio, GSON API
-            </h1>
+            <h1 className="text-lg">SafeWayz</h1>
             <p className="text-sm">
               Android app that helps users find the safest routes through San
               Francisco using Dijkstra&apos;s algorithm with a crime rate
@@ -137,7 +128,7 @@ export default function Projects() {
             alt="pillpal"
           />
           <CardBody className="overflow-visible py-2">
-            <h1 className="text-lg">PillPal - Flutter</h1>
+            <h1 className="text-lg">PillPal</h1>
             <p className="text-sm">
               A mobile app designed to improve patient compliance when taking
               medications by tracking medications and sending reminders when
