@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <div className="mt-12">
       <p className="text-lg">Some things I&apos;ve worked on</p>
-      <div className="grid grid-cols-2 gap-6 mt-8">
+      <div className="grid md:grid-cols-2 gap-6 mt-8">
         <Card className="pb-2" isPressable onPress={() => window.open("https://apps.apple.com/ca/app/neonatal-hemodynamics-cdss/id1560267229")}>
           <Image
             className="rounded-t-xl"
