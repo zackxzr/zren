@@ -7,10 +7,15 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <div className="mt-12">
-      <p className="text-lg">Some things I've worked on</p>
+      <p className="text-lg">Some things I&apos;ve worked on</p>
       <div className="grid grid-cols-2 gap-6 mt-8">
         <Card className="pb-2" isPressable>
-          <Image className="rounded-t-xl" radius="none" src="/pocusneo.png" />
+          <Image
+            className="rounded-t-xl"
+            radius="none"
+            src="/pocusneo.png"
+            alt="pocusneo"
+          />
           <CardBody className="overflow-visible py-2">
             <h1 className="text-lg">
               CDSS Hemodynamics -
@@ -26,7 +31,12 @@ export default function Projects() {
           </CardFooter>
         </Card>
         <Card className="pb-2" isPressable>
-          <Image className="rounded-t-xl" radius="none" src="/veritech.png" />
+          <Image
+            className="rounded-t-xl"
+            radius="none"
+            src="/veritech.png"
+            alt="veritech"
+          />
           <CardBody className="overflow-visible py-2">
             <h1 className="text-lg">Veritech - Python (NLP), Azure, React</h1>
             <p className="text-sm">
@@ -39,7 +49,12 @@ export default function Projects() {
           </CardFooter>
         </Card>
         <Card className="pb-2" isPressable>
-          <Image className="rounded-t-xl" radius="none" src="/graphtai.png" />
+          <Image
+            className="rounded-t-xl"
+            radius="none"
+            src="/graphtai.png"
+            alt="graphtai"
+          />
           <CardBody className="overflow-visible py-2">
             <h1 className="text-lg">
               Grapht.ai - GCP, node.js, MongoDB, React
@@ -55,7 +70,12 @@ export default function Projects() {
           </CardFooter>
         </Card>
         <Card className="pb-2" isPressable>
-          <Image className="rounded-t-xl" radius="none" src="/nearbuy.png" />
+          <Image
+            className="rounded-t-xl"
+            radius="none"
+            src="/nearbuy.png"
+            alt="nearbuy"
+          />
           <CardBody className="overflow-visible py-2">
             <h1 className="text-lg">
               NearBuy - React Native, MongoDB, JavaScript
@@ -71,7 +91,12 @@ export default function Projects() {
           </CardFooter>
         </Card>
         <Card className="pb-2" isPressable>
-          <Image className="rounded-t-xl" radius="none" src="/filtering.png" />
+          <Image
+            className="rounded-t-xl"
+            radius="none"
+            src="/filtering.png"
+            alt="filtering"
+          />
           <CardBody className="overflow-visible py-2">
             <h1 className="text-lg">Image Filtering - C</h1>
             <p className="text-sm">
@@ -84,15 +109,20 @@ export default function Projects() {
           </CardFooter>
         </Card>
         <Card className="pb-2" isPressable>
-          <Image className="rounded-t-xl" radius="none" src="/safewayz.png" />
+          <Image
+            className="rounded-t-xl"
+            radius="none"
+            src="/safewayz.png"
+            alt="safewayz"
+          />
           <CardBody className="overflow-visible py-2">
             <h1 className="text-lg">
               SafeWayz - Java, Android Studio, GSON API
             </h1>
             <p className="text-sm">
               Android app that helps users find the safest routes through San
-              Francisco using Dijkstra's algorithm with a crime rate dataset as
-              weights
+              Francisco using Dijkstra&apos;s algorithm with a crime rate
+              dataset as weights
             </p>
           </CardBody>
           <CardFooter>
@@ -100,7 +130,12 @@ export default function Projects() {
           </CardFooter>
         </Card>
         <Card className="pb-2" isPressable>
-          <Image className="rounded-t-xl" radius="none" src="/pillpal.png" />
+          <Image
+            className="rounded-t-xl"
+            radius="none"
+            src="/pillpal.png"
+            alt="pillpal"
+          />
           <CardBody className="overflow-visible py-2">
             <h1 className="text-lg">PillPal - Flutter</h1>
             <p className="text-sm">
