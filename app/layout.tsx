@@ -30,13 +30,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <header>
                 <div className="flex justify-between">
                   <nav className="text-sm font-medium space-x-6">
-                    <Link className="text-lg" color="foreground" underline="hover" href="/">
+                    <Link color="foreground" underline="hover" href="/">
                       Home
                     </Link>
-                    <Link className="text-lg" color="foreground" underline="hover" href="/posts">
+                    <Link color="foreground" underline="hover" href="/posts">
                       Blog
                     </Link>
-                    <Link className="text-lg" color="foreground" underline="hover" href="/projects">
+                    <Link color="foreground" underline="hover" href="/projects">
                       Projects
                     </Link>
                   </nav>
