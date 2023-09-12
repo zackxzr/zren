@@ -1,15 +1,17 @@
+"use client";
+
 import React from "react";
-import { Card, CardBody, CardHeader, CardFooter } from "@nextui-org/card";
+import { Card, CardBody, CardFooter } from "@nextui-org/card";
+import { Chip } from "@nextui-org/chip";
 import { Button } from "@nextui-org/button";
 import { Image } from "@nextui-org/image";
-import Link from "next/link";
 
 export default function Projects() {
   return (
     <div className="mt-12">
       <p className="text-lg">Some things I&apos;ve worked on</p>
       <div className="grid grid-cols-2 gap-6 mt-8">
-        <Card className="pb-2" isPressable>
+        <Card className="pb-2" isPressable onPress={() => window.open("https://apps.apple.com/ca/app/neonatal-hemodynamics-cdss/id1560267229")}>
           <Image
             className="rounded-t-xl"
             radius="none"
@@ -23,11 +25,11 @@ export default function Projects() {
               neonatologists during hemodynamic assessment of newborns.
             </p>
           </CardBody>
-          <CardFooter>
-            <Button>Link</Button>
+          <CardFooter className="gap-2">
+            <Chip>Flutter</Chip>
           </CardFooter>
         </Card>
-        <Card className="pb-2" isPressable>
+        <Card className="pb-2" isPressable onPress={() => window.open("https://github.com/Agorize-Veritech/Veritech")}>
           <Image
             className="rounded-t-xl"
             radius="none"
@@ -41,11 +43,13 @@ export default function Projects() {
               articles by political stance based on a search query.
             </p>
           </CardBody>
-          <CardFooter>
-            <Button>Link</Button>
+          <CardFooter className="gap-2">
+            <Chip>Python</Chip>
+            <Chip>NLP</Chip>
+            <Chip>Azure</Chip>
           </CardFooter>
         </Card>
-        <Card className="pb-2" isPressable>
+        <Card className="pb-2" isPressable onPress={() => window.open("https://github.com/Zack-Ren/grapht.ai")}>
           <Image
             className="rounded-t-xl"
             radius="none"
@@ -60,11 +64,15 @@ export default function Projects() {
               population
             </p>
           </CardBody>
-          <CardFooter>
-            <Button>Link</Button>
+          <CardFooter className="gap-2 flex-wrap">
+            <Chip>JavaScript</Chip>
+            <Chip>GCP Vision AI</Chip>
+            <Chip>Node.js</Chip>
+            <Chip>MongoDB</Chip>
+            <Chip>React</Chip>
           </CardFooter>
         </Card>
-        <Card className="pb-2" isPressable>
+        <Card className="pb-2" isPressable onPress={() => window.open("https://github.com/Zack-Ren/ToHacks")}>
           <Image
             className="rounded-t-xl"
             radius="none"
@@ -79,11 +87,13 @@ export default function Projects() {
               businesses
             </p>
           </CardBody>
-          <CardFooter>
-            <Button>Link</Button>
+          <CardFooter className="gap-2">
+            <Chip>JavaScript</Chip>
+            <Chip>MongoDB</Chip>
+            <Chip>React Native</Chip>
           </CardFooter>
         </Card>
-        <Card className="pb-2" isPressable>
+        <Card className="pb-2" isPressable onPress={() => window.open("https://github.com/Zack-Ren/convolution-kernel")}>
           <Image
             className="rounded-t-xl"
             radius="none"
@@ -97,11 +107,11 @@ export default function Projects() {
               using a convolution kernel
             </p>
           </CardBody>
-          <CardFooter>
-            <Button>Link</Button>
+          <CardFooter className="gap-2">
+            <Chip>C</Chip>
           </CardFooter>
         </Card>
-        <Card className="pb-2" isPressable>
+        <Card className="pb-2" isPressable onPress={() => window.open("https://github.com/Zack-Ren/SafeWayz")}>
           <Image
             className="rounded-t-xl"
             radius="none"
@@ -116,11 +126,13 @@ export default function Projects() {
               dataset as weights
             </p>
           </CardBody>
-          <CardFooter>
-            <Button>Link</Button>
+          <CardFooter className="gap-2">
+            <Chip>Java</Chip>
+            <Chip>Android Studio</Chip>
+            <Chip>GSON</Chip>
           </CardFooter>
         </Card>
-        <Card className="pb-2" isPressable>
+        <Card className="pb-2" isPressable onPress={() => window.open("https://github.com/Zack-Ren/PillPal")}>
           <Image
             className="rounded-t-xl"
             radius="none"
@@ -135,8 +147,10 @@ export default function Projects() {
               needed
             </p>
           </CardBody>
-          <CardFooter>
-            <Button>Link</Button>
+          <CardFooter className="gap-2">
+            <Chip>Flutter</Chip>
+            <Chip>OpenCV</Chip>
+            <Chip>pytesseract</Chip>
           </CardFooter>
         </Card>
       </div>
