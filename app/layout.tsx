@@ -1,6 +1,5 @@
 import "./globals.css";
-import Link from "next/link";
-import { Link as NextLink } from "@nextui-org/link";
+import { Link } from "@nextui-org/link";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from "@/components/analytics";
@@ -31,31 +30,31 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <header>
                 <div className="flex justify-between">
                   <nav className="text-sm font-medium space-x-6">
-                    <Link className="text-lg hover:underline" href="/">
+                    <Link className="text-lg" color="foreground" underline="hover" href="/">
                       Home
                     </Link>
-                    <Link className="text-lg hover:underline" href="/posts">
+                    <Link className="text-lg" color="foreground" underline="hover" href="/posts">
                       Blog
                     </Link>
-                    <Link className="text-lg hover:underline" href="/projects">
+                    <Link className="text-lg" color="foreground" underline="hover" href="/projects">
                       Projects
                     </Link>
                   </nav>
                   <div className="flex items-center gap-2">
-                    <NextLink
+                    <Link
                       isExternal
                       href="https://www.linkedin.com/in/zack-ren/"
                       aria-label="Linkedin"
                     >
                       <LinkedinIcon className="text-default-500" />
-                    </NextLink>
-                    <NextLink
+                    </Link>
+                    <Link
                       isExternal
                       href="https://github.com/Zack-Ren"
                       aria-label="Github"
                     >
                       <GithubIcon className="text-default-500" />
-                    </NextLink>
+                    </Link>
                     <ThemeSwitch />
                   </div>
                 </div>
