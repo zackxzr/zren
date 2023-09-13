@@ -76,7 +76,7 @@ export default function Projects() {
           <CardBody className="overflow-visible py-2">
             <h1 className="text-lg">Grapht.ai</h1>
             <p className="text-sm text-zinc-400">
-              Dermatology diagnosis, referral, and eduation platform utilizing
+              Dermatology diagnosis, referral, and education platform utilizing
               computer vision to make dematology care accessible to a greater
               population
             </p>
