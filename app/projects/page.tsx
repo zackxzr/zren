@@ -104,7 +104,7 @@ export default function Projects() {
             <h1 className="text-lg">NearBuy</h1>
             <p className="text-sm text-zinc-400">
               A mobile app designed to reduce the monopoly of third-party food
-              delivery apps for local restaruants and instead support local
+              delivery apps for local restaurants and instead support local
               businesses
             </p>
           </CardBody>
