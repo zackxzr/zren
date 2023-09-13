@@ -7,11 +7,11 @@ export default function Home() {
 
   return (
     <div className="mt-12">
-      <p className={`${theme === "light" ? "text-zinc-700" : "text-zinc-300"}`}>
+      <p className={`${theme === "dark" ? "text-zinc-300" : "text-zinc-700"}`}>
         Hi, I&apos;m{" "}
         <span
           className={`${
-            theme === "light" ? "text-black" : "text-white"
+            theme === "dark" ? "text-white" : "text-black"
           } font-semibold`}
         >
           Zack
@@ -22,7 +22,7 @@ export default function Home() {
       </p>
       <p
         className={`${
-          theme === "light" ? "text-zinc-700" : "text-zinc-300"
+          theme === "dark" ? "text-zinc-300" : "text-zinc-700"
         } pt-4`}
       >
         On days when I decide I&apos;ve had enough of staring into a monitor, I
@@ -31,7 +31,7 @@ export default function Home() {
       </p>
       <p
         className={`${
-          theme === "light" ? "text-zinc-700" : "text-zinc-300"
+          theme === "dark" ? "text-zinc-300" : "text-zinc-700"
         } py-4`}
       >
         Right now I&apos;m building tools for web3 over at Parametric.
