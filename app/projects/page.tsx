@@ -3,7 +3,6 @@
 import React from "react";
 import { Card, CardBody, CardFooter } from "@nextui-org/card";
 import { Chip } from "@nextui-org/chip";
-import { Button } from "@nextui-org/button";
 import { Image } from "@nextui-org/image";
 
 export default function Projects() {
@@ -11,6 +10,32 @@ export default function Projects() {
     <div className="mt-12">
       <p className="text-lg">Some things I&apos;ve built</p>
       <div className="grid md:grid-cols-2 gap-6 mt-8">
+        <Card
+          className="pb-2"
+          isPressable
+          onPress={() => window.open("https://github.com/Zack-Ren/Hypnos")}
+        >
+          <Image
+            className="rounded-t-xl"
+            radius="none"
+            src="/hypnos.png"
+            alt="hypnos"
+          />
+          <CardBody className="overflow-visible py-2">
+            <h1 className="text-lg">Hypnos</h1>
+            <p className="text-sm text-zinc-400">
+              An integrated platform to provide a seamless diagnosis experience
+              for sleep specialists and their patients.
+            </p>
+          </CardBody>
+          <CardFooter className="gap-2 flex-wrap">
+            <Chip radius="sm">Flutter</Chip>
+            <Chip radius="sm">React</Chip>
+            <Chip radius="sm">MongoDB</Chip>
+            <Chip radius="sm">C#</Chip>
+            <Chip radius="sm">Python</Chip>
+          </CardFooter>
+        </Card>
         <Card
           className="pb-2"
           isPressable
