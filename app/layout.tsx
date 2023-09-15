@@ -2,7 +2,7 @@ import "./globals.css";
 import { Link } from "@nextui-org/link";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
-import { Analytics } from "@/components/analytics";
+import { Analytics } from "@vercel/analytics/react";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { Providers } from "./providers";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";

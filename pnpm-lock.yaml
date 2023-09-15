@@ -27,7 +27,7 @@ dependencies:
     specifier: 18.2.1
     version: 18.2.1
   '@vercel/analytics':
-    specifier: ^1.0.0
+    specifier: ^1.0.1
     version: 1.0.1
   autoprefixer:
     specifier: 10.4.14
