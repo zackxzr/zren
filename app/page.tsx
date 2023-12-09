@@ -15,7 +15,7 @@ export default function Home() {
         always on the lookout for new things to learn and food to eat!
       </p>
       <p className="py-4">
-        Right now I&apos;m building tools for web3 over at Parametric.
+        I will be joining Capital One as a Software Engineer after graduating.
       </p>
     </div>
   );
