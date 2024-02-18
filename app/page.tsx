@@ -5,9 +5,9 @@ export default function Home() {
     <div className="mt-12">
       <p>
         Hi, I&apos;m <span className="font-semibold">Zack</span>, a Software
-        Engineer building out my ideas. Currently a SWE undergrad student at
-        McMaster University. I love solving challenging problems and I&apos;m
-        fascinated with innovations in AI and technology.
+        Engineer building out my ideas. I&apos;m a Software and Biomedical
+        Engineer Grad from McMaster University. I love solving challenging
+        problems and I&apos;m fascinated with innovations in AI and technology.
       </p>
       <p className="pt-4">
         On days when I decide I&apos;ve had enough of staring into a monitor, I
@@ -15,7 +15,7 @@ export default function Home() {
         always on the lookout for new things to learn and food to eat!
       </p>
       <p className="py-4">
-        I will be joining Capital One as a Software Engineer after graduating.
+        Currently building the mobile app infrastructure at Capital One!
       </p>
     </div>
   );
