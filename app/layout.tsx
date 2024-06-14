@@ -43,14 +43,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   <div className="flex items-center gap-2">
                     <Link
                       isExternal
-                      href="https://www.linkedin.com/in/zack-ren/"
+                      href="https://www.linkedin.com/in/zackren/"
                       aria-label="Linkedin"
                     >
                       <LinkedinIcon className="text-default-500" />
                     </Link>
                     <Link
                       isExternal
-                      href="https://github.com/Zack-Ren"
+                      href="https://github.com/zackxzr"
                       aria-label="Github"
                     >
                       <GithubIcon className="text-default-500" />
