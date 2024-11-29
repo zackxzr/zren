@@ -164,33 +164,6 @@ export default function Projects() {
             <Chip radius="sm">C</Chip>
           </CardFooter>
         </Card>
-        <Card
-          className="pb-2"
-          isPressable
-          onPress={() =>
-            window.open("https://github.com/AdityaSharma6/SafeWayz")
-          }
-        >
-          <Image
-            className="rounded-t-xl"
-            radius="none"
-            src="/safewayz.png"
-            alt="safewayz"
-          />
-          <CardBody className="overflow-visible py-2">
-            <h1 className="text-lg">SafeWayz</h1>
-            <p className="text-sm text-zinc-400">
-              Android app that helps users find the safest routes through San
-              Francisco using Dijkstra&apos;s algorithm with a crime rate
-              dataset as weights
-            </p>
-          </CardBody>
-          <CardFooter className="gap-2">
-            <Chip radius="sm">Java</Chip>
-            <Chip radius="sm">Android Studio</Chip>
-            <Chip radius="sm">GSON</Chip>
-          </CardFooter>
-        </Card>
       </div>
     </div>
   );
