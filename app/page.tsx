@@ -11,7 +11,7 @@ export default function Home() {
       </p>
       <ul className="list-disc pl-4">
         <li>Software Engineering <span className="font-medium">@Capital One</span></li>
-        <li>M.S Computer Science <span className="font-medium">@Georgia Tech</span></li>
+        <li>M.S. Computer Science <span className="font-medium">@Georgia Tech</span></li>
         <li>Technology I&apos;m learning: Rust, AWS.</li>
       </ul>
     </div>
