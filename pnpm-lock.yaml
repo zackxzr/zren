@@ -12,8 +12,8 @@ importers:
         specifier: 2.1.12
         version: 2.1.12(@types/react@18.2.0)(framer-motion@10.16.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.16)
       '@react-aria/ssr':
-        specifier: 3.7.1
-        version: 3.7.1(react@18.2.0)
+        specifier: 3.9.7
+        version: 3.9.7(react@18.2.0)
       '@react-aria/visually-hidden':
         specifier: 3.8.3
         version: 3.8.3(react@18.2.0)
@@ -1045,12 +1045,6 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
-
-  '@react-aria/ssr@3.7.1':
-    resolution: {integrity: sha512-ovVPSD1WlRpZHt7GI9DqJrWG3OIYS+NXQ9y5HIewMJpSe+jPQmMQfyRmgX4EnvmxSlp0u04Wg/7oItcoSIb/RA==}
-    engines: {node: '>= 12'}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
 
   '@react-aria/ssr@3.9.7':
     resolution: {integrity: sha512-GQygZaGlmYjmYM+tiNBA5C6acmiDWF52Nqd40bBp0Znk4M4hP+LTmI0lpI1BuKMw45T8RIhrAsICIfKwZvi2Gg==}
@@ -5177,11 +5171,6 @@ snapshots:
       '@swc/helpers': 0.5.15
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-
-  '@react-aria/ssr@3.7.1(react@18.2.0)':
-    dependencies:
-      '@swc/helpers': 0.5.15
-      react: 18.2.0
 
   '@react-aria/ssr@3.9.7(react@18.2.0)':
     dependencies:
