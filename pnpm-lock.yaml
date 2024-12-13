@@ -15,8 +15,8 @@ importers:
         specifier: 3.7.1
         version: 3.7.1(react@18.2.0)
       '@react-aria/visually-hidden':
-        specifier: 3.8.3
-        version: 3.8.3(react@18.2.0)
+        specifier: 3.8.18
+        version: 3.8.18(react@18.2.0)
       '@tailwindcss/typography':
         specifier: 0.5.9
         version: 0.5.9(tailwindcss@3.4.16)
@@ -1099,11 +1099,6 @@ packages:
     resolution: {integrity: sha512-l/0igp+uub/salP35SsNWq5mGmg3G5F5QMS1gDZ8p28n7CgjvzyiGhJbbca7Oxvaw1HRFzVl9ev+89I7moNnFQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
-
-  '@react-aria/visually-hidden@3.8.3':
-    resolution: {integrity: sha512-Ln3rqUnPF/UiiPjj8Xjc5FIagwNvG16qtAR2Diwnsju+X9o2xeDEZhN/5fg98PxH2JBS3IvtsmMZRzPT9mhpmg==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
 
   '@react-stately/checkbox@3.6.5':
     resolution: {integrity: sha512-IXV3f9k+LtmfQLE+DKIN41Q5QB/YBLDCB1YVx5PEdRp52S9+EACD5683rjVm8NVRDwjMi2SP6RnFRk7fVb5Azg==}
@@ -5280,15 +5275,6 @@ snapshots:
       '@react-aria/utils': 3.26.0(react@18.2.0)
       '@react-types/shared': 3.26.0(react@18.2.0)
       '@swc/helpers': 0.5.15
-      react: 18.2.0
-
-  '@react-aria/visually-hidden@3.8.3(react@18.2.0)':
-    dependencies:
-      '@react-aria/interactions': 3.22.5(react@18.2.0)
-      '@react-aria/utils': 3.26.0(react@18.2.0)
-      '@react-types/shared': 3.26.0(react@18.2.0)
-      '@swc/helpers': 0.5.15
-      clsx: 1.2.1
       react: 18.2.0
 
   '@react-stately/checkbox@3.6.5(react@18.2.0)':
